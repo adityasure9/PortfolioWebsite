@@ -15,10 +15,10 @@ const greeting = {
   username: "Aditya Sure",
   title: "Hello everyone, I'm Aditya",
   subTitle: emoji(
-    "A passionate Software Developer 🌟 specializing in crafting robust Web applications. With expertise in JavaScript, React.js, Node.js, and other cutting-edge frameworks."
+    "Full Stack Developer with hands-on experience in the MERN stack and cloud technologies (AWS, Azure) ☁️. Proficient in building scalable web applications 🌐, optimizing CI/CD pipelines 🚀, and implementing DevOps practices 🛠️. Eager to contribute to innovative tech projects by applying strong problem-solving skills 🧩 and a passion for continuous learning 📚."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Xfk15KgV_4g6f5uYf9B-1CyCAU0CUbhA/view?usp=drive_link",
+    "https://drive.google.com/file/d/1t4hcDKZU-K6HOl6daOfGkgmSs8Dw9gzl/view?usp=drive_link",
   displayGreeting: true
 };
 
@@ -38,7 +38,7 @@ const skillsSection = {
       "⚡ Build highly interactive Front end / User Interfaces for web and mobile applications"
     ),
     emoji(
-      "⚡ Integrate third-party services such as Firebase, AWS, and others"
+      "⚡ Integrate third-party services such as Azure, AWS, and others"
     )
   ],
   softwareSkills: [
@@ -94,15 +94,8 @@ const educationInfo = {
       logo: require("./assets/images/uflogo.jpg"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
-      desc: "CGPA: 3.6/4"
+      desc: "CGPA: 3.72/4"
     },
-    {
-      schoolName: "Jawaharlal Nehru Technological University",
-      logo: require("./assets/images/Jntuk-logo.png"),
-      subHeader: "Bachelor of Technology in Computer Science and Engineering",
-      duration: "August 2018 - May 2022",
-      desc: "CGPA: 8.3/10"
-    }
   ]
 };
 

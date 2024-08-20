@@ -7,8 +7,10 @@ const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
   import("../../components/githubProfileCard/GithubProfileCard")
 );
+
 export default function Profile() {
   const [prof, setrepo] = useState([]);
+  
   function setProfileFunction(array) {
     setrepo(array);
   }
@@ -16,11 +18,12 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        fetch(`${process.env.PUBLIC_URL}/profile.json`)
           .then(result => {
             if (result.ok) {
               return result.json();
             }
+            throw result;
           })
           .then(response => {
             setProfileFunction(response.data.user);
@@ -36,6 +39,7 @@ export default function Profile() {
       getProfileData();
     }
   }, []);
+
   if (
     openSource.display &&
     openSource.showGithubProfile === "true" &&
