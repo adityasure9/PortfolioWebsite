@@ -91,7 +91,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Florida",
-      logo: require("./assets/images/uflogo.jpg"),
+      logo: require("./public/uflogo.jpg"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
       desc: "CGPA: 3.72/4"
