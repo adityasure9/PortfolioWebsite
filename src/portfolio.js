@@ -18,7 +18,7 @@ const greeting = {
     "Full Stack Developer with hands-on experience in the MERN stack and cloud technologies (AWS, Azure) ☁️. Proficient in building scalable web applications 🌐, optimizing CI/CD pipelines 🚀, and implementing DevOps practices 🛠️. Eager to contribute to innovative tech projects by applying strong problem-solving skills 🧩 and a passion for continuous learning 📚."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1t4hcDKZU-K6HOl6daOfGkgmSs8Dw9gzl/view?usp=drive_link",
+    "https://drive.google.com/file/d/1r_In65hCTrJepJG4ssEUtx-ditoP5oFc/view?usp=drive_link",
   displayGreeting: true
 };
 
@@ -32,22 +32,25 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My Expertise",
-  subTitle: "SKILLED SOFTWARE DEVELOPER KEEN ON EXPLORING NEW TECHNOLOGIES",
+  subTitle: "SKILLED FULL STACK DEVELOPER WITH A FOCUS ON CUTTING-EDGE TECHNOLOGIES",
   skills: [
     emoji(
-      "⚡ Build highly interactive Front end / User Interfaces for web and mobile applications"
+      "⚡ Build highly interactive and responsive user interfaces for web and mobile applications using modern JavaScript frameworks like React.js and Redux."
     ),
     emoji(
-      "⚡ Integrate third-party services such as Azure, AWS, and others"
+      "⚡ Design and implement robust backend services with Node.js, Express.js, and SQL/NoSQL databases, ensuring high performance and scalability."
+    ),
+    emoji(
+      "⚡ Integrate and manage cloud services, including AWS, Azure, and Firebase, to enhance application deployment, monitoring, and continuous delivery."
     )
   ],
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -55,32 +58,48 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL Databases",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "AZURE",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf" // Placeholder icon
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
     }
   ],
   display: true
@@ -94,7 +113,14 @@ const educationInfo = {
       logo: `${process.env.PUBLIC_URL}/uflogo.jpg`,
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
-      desc: "CGPA: 3.72/4",
+      desc: "CGPA: 3.6/4",
+    },
+    {
+      schoolName: "Jawaharlal Nehru Technological University, Kakinada (JNTUK)",
+      logo: `${process.env.PUBLIC_URL}/Jntuk-logo.png`,
+      subHeader: "Bachelor of Technology in Computer Science and Engineering",
+      duration: "August 2018 - May 2022",
+      desc: "CGPA: 8.2/10",
     },
   ]
 };
@@ -115,73 +141,72 @@ const techStack = {
       progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false
+  displayCodersrank: true
 };
 
 const workExperiences = {
-  display: false,
+  display: true,
   experience: [
     {
-      role: "",
-      company: "",
-      companylogo: "",
-      date: "",
-      desc: "",
-      descBullets: [
-        ""
-      ]
+      role: "Software Engineer",
+      company: "One Community Global",
+      companylogo: `${process.env.PUBLIC_URL}/ocg.jpg`,
+      date: "Jul 2024 - Present",
+      desc: "Contributing to a global non-profit organization by developing and maintaining a large-scale open-source project aimed at creating a sustainable future. As a lead developer, I enhanced application scalability, reliability, and user experience.",
+      
     },
     {
-      role: "",
-      company: "",
-      companylogo: "",
-      date: "",
-      desc: ""
+      role: "Web Developer",
+      company: "Indian Servers",
+      companylogo: `${process.env.PUBLIC_URL}/is.jpg`,
+      date: "Feb 2021 - Jul 2021",
+      desc: "Worked on a cutting-edge public safety Progressive Web Application (PWA), utilizing machine learning and cloud technologies to enhance public safety measures and user engagement."
     },
     {
-      role: "",
-      company: "",
-      companylogo: "",
-      date: "",
-      desc: ""
+      role: "Software Developer Intern (AR Focus)",
+      company: "Facebook School of Innovation",
+      companylogo: `${process.env.PUBLIC_URL}/siiff.jpg`,
+      date: "Feb 2020 - Jul 2020",
+      desc: "Developed interactive AR experiences for a leading e-commerce brand, focusing on enhancing user engagement through innovative technology solutions."
     }
   ]
 };
 
 const openSource = {
-  showGithubProfile: "true",
+  showGithubProfile: "false",
   display: false
 };
 
 const bigProjects = {
-  title: "",
-  subtitle: "",
+  title: "Major Projects",
+  subtitle: "Highlighted Projects that Showcase My Skills and Experience",
   projects: [
     {
-      image: "",
-      projectName: "",
-      projectDesc: "",
+      image: `${process.env.PUBLIC_URL}/hgn.jpeg`, // Replace with the actual URL of the project image
+      projectName: "Highest Good Network (HGNv2) React App",
+      projectDesc: "Led the development of key features in the HGNv2 React App, improving user experience and system stability. Managed CI/CD pipelines, resolved critical bugs, and integrated Sentry.io for enhanced error tracking.",
       footerLink: [
         {
-          name: "",
-          url: ""
+          name: "View Project",
+          url: "https://github.com/OneCommunityGlobal/HighestGoodNetworkApp" // Replace with the actual URL of the project
         }
       ]
     },
     {
-      image: "",
-      projectName: "",
-      projectDesc: "",
+      image: `${process.env.PUBLIC_URL}/e.jpg`, // Replace with the actual URL of the project image
+      projectName: "E-commerce Website",
+      projectDesc: "Developed a full-stack e-commerce platform with features like user authentication, product listings, shopping cart, and order management. Integrated payment gateways and ensured a responsive design for an optimal user experience across devices.",
       footerLink: [
         {
-          name: "",
-          url: ""
+          name: "View Project",
+          url: "https://github.com/adityasure9/Ecommerce" 
         }
       ]
     }
   ],
-  display: false
+  display: true
 };
+
 
 const achievementSection = {
   title: emoji(""),
@@ -257,7 +282,7 @@ const blogSection = {
         ""
     }
   ],
-  display: true
+  display: false
 };
 
 const talkSection = {
@@ -288,7 +313,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: false
+  display: true
 };
 
 const contactInfo = {
