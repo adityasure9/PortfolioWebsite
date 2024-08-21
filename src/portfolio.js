@@ -158,7 +158,7 @@ const workExperiences = {
     {
       role: "Web Developer",
       company: "Indian Servers",
-      companylogo: `${process.env.PUBLIC_URL}/is.jpg`,
+      companylogo: `${process.env.PUBLIC_URL}/isa.png`,
       date: "Feb 2021 - Jul 2021",
       desc: "Worked on a cutting-edge public safety Progressive Web Application (PWA), utilizing machine learning and cloud technologies to enhance public safety measures and user engagement."
     },
