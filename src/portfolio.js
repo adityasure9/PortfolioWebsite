@@ -13,7 +13,7 @@ const illustration = {
 
 const greeting = {
   username: "Aditya Sure",
-  title: "Hello everyone, I'm Aditya",
+  title: "Hello everyone, I'm AdityaS",
   subTitle: emoji(
     "Full Stack Developer with hands-on experience in the MERN stack and cloud technologies (AWS, Azure) ☁️. Proficient in building scalable web applications 🌐, optimizing CI/CD pipelines 🚀, and implementing DevOps practices 🛠️. Eager to contribute to innovative tech projects by applying strong problem-solving skills 🧩 and a passion for continuous learning 📚."
   ),
