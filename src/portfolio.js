@@ -15,7 +15,7 @@ const greeting = {
   username: "Aditya Sure",
   title: "Hello, I'm Aditya",
   subTitle: emoji(
-    "Welcome to my portfolio 🌟 I'm a dedicated Software Engineer with expertise in Full-Stack Development and Cloud Computing ☁️. I love crafting impactful digital experiences, building everything from sleek frontends to robust backends 🔧. With a background in Computer Science 🎓 and a passion for tackling complex challenges, I'm always eager to innovate and push boundaries 🚀. Feel free to explore my work, check out my projects, and let's connect if you're interested in collaboration or opportunities! 💼 Let's build something amazing together! 💻"
+    "👋 Welcome to my portfolio! I’m a skilled Software Engineer specializing in Full-Stack Development and Cloud Computing ☁️. From building sleek frontends to designing scalable backends, I’m passionate about crafting impactful digital solutions. With a background in Computer Science 🎓 and a drive to tackle complex challenges, I’m always eager to innovate and push boundaries 🚀. Feel free to explore my work and connect for collaboration or opportunities! 💼"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1r_In65hCTrJepJG4ssEUtx-ditoP5oFc/view?usp=drive_link",
@@ -31,24 +31,12 @@ const socialMediaLinks = {
 };
 
 const skillsSection = {
-  title: "My Expertise",
-  subTitle: "SKILLED FULL STACK DEVELOPER WITH A FOCUS ON CUTTING-EDGE TECHNOLOGIES",
+  title: "Expertise",
+  subTitle: "FULL STACK DEVELOPER WITH A FOCUS ON MODERN TECHNOLOGIES",
   skills: [
-    emoji(
-      "⚡ Build highly interactive and responsive user interfaces for web and mobile applications using modern JavaScript frameworks like React.js, Redux, and Angular."
-    ),
-    emoji(
-      "⚡ Design and implement robust backend services with Node.js, Express.js, Python (Flask, Django), and Java (Spring, Spring Boot), ensuring high performance and scalability."
-    ),
-    emoji(
-      "⚡ Integrate and manage cloud services, including AWS, Azure, GCP, and Firebase, to enhance application deployment, monitoring, and continuous delivery."
-    ),
-    emoji(
-      "⚡ Optimize system performance and reliability using containerization (Docker, Kubernetes), CI/CD pipelines (Jenkins, GitHub Actions, CircleCI), and monitoring tools (Sentry.io, TDD)."
-    ),
-    emoji(
-      "⚡ Develop secure, scalable e-commerce platforms with dynamic features such as live chat, push notifications, and secure payment gateways using technologies like Stripe API and Redis."
-    )
+    emoji("⚡ Build interactive user interfaces using React.js, Redux, and Angular."),
+    emoji("⚡ Design scalable backend services with Node.js, Python (Flask, Django), and Java (Spring Boot)."),
+    emoji("⚡ Leverage cloud platforms like AWS, Azure, and GCP for deployment and scalability ☁️."),
   ],
   softwareSkills: [
     {
@@ -72,10 +60,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "Vue.js",
-      fontAwesomeClassname: "fab fa-vuejs"
-    },
-    {
       skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -88,16 +72,8 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "SQL Databases",
+      skillName: "SQL/NoSQL",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "NoSQL Databases (MongoDB, DynamoDB)",
-      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "AWS",
@@ -108,14 +84,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "GCP",
-      fontAwesomeClassname: "fab fa-google"
-    },
-    {
-      skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
@@ -124,32 +92,17 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-cubes"
     },
     {
-      skillName: "Terraform",
-      fontAwesomeClassname: "fas fa-code"
-    },
-    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
     {
       skillName: "GitHub",
       fontAwesomeClassname: "fab fa-github"
-    },
-    {
-      skillName: "Jenkins",
-      fontAwesomeClassname: "fas fa-tools"
-    },
-    {
-      skillName: "Sentry.io",
-      fontAwesomeClassname: "fas fa-exclamation-triangle"
-    },
-    {
-      skillName: "Figma (UI/UX Design)",
-      fontAwesomeClassname: "fab fa-figma"
     }
   ],
   display: true
 };
+
 
 const educationInfo = {
   display: true,
