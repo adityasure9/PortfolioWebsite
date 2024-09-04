@@ -13,9 +13,13 @@ const illustration = {
 
 const greeting = {
   username: "Aditya Sure",
-  title: "Hello everyone, I'm AdityaS",
+  title: "Hello, I'm Aditya",
   subTitle: emoji(
-    "Full Stack Developer with hands-on experience in the MERN stack and cloud technologies (AWS, Azure) ☁️. Proficient in building scalable web applications 🌐, optimizing CI/CD pipelines 🚀, and implementing DevOps practices 🛠️. Eager to contribute to innovative tech projects by applying strong problem-solving skills 🧩 and a passion for continuous learning 📚."
+    "Welcome to my portfolio 🌟
+
+ I'm a dedicated Software Engineer with expertise in Full-Stack Development and Cloud Computing ☁️. I love crafting impactful digital experiences, building everything from sleek frontends to robust backends 🔧. With a background in Computer Science 🎓 and a passion for tackling complex challenges, I'm always eager to innovate and push boundaries 🚀.
+
+Feel free to explore my work, check out my projects, and let's connect if you're interested in collaboration or opportunities! 💼 Let's build something amazing together! 💻"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1r_In65hCTrJepJG4ssEUtx-ditoP5oFc/view?usp=drive_link",
