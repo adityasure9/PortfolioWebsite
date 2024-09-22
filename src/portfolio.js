@@ -15,7 +15,7 @@ const greeting = {
   username: "Aditya Sure",
   title: "Hello, I'm Aditya",
   subTitle: emoji(
-    "👋 Welcome to my portfolio! I’m a Software Engineer specializing in Full-Stack Development and Cloud Computing ☁️. I build sleek frontends and scalable backends, creating impactful digital solutions 💼. With a Computer Science background 🎓 and a passion for solving challenges, I’m always ready to innovate and push boundaries 🚀."
+    "👋 I’m a Software Engineer specializing in Full-Stack Development and Cloud Computing ☁️. I create sleek frontends and scalable backends, turning ideas into impactful digital solutions 💼. With a strong Computer Science background 🎓 and a passion for problem-solving, I’m always ready to innovate 🚀."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1r_In65hCTrJepJG4ssEUtx-ditoP5oFc/view?usp=drive_link",
